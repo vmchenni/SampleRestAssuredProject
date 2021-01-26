@@ -1,0 +1,49 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Testing login2",
+        "description": "",
+        "id": "test-login2;testing-login2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6980789599,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User gets list of users",
+            "match": {
+              "location": "MyStepdefs.userGetsListOfUsers()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sample2"
+          }
+        ]
+      }
+    ],
+    "name": "Test Login2",
+    "description": "",
+    "id": "test-login2",
+    "keyword": "Feature",
+    "uri": "file:features/samplepojo.feature",
+    "tags": [
+      {
+        "name": "@sample2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
